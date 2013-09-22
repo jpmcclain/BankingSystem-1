@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WINDOWS</Machine>
+    <WindowsUser>rodri_000</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0bdc5098-45f1-4040-a70d-ae08b1ef3dda</PackageIdentityName>
+    <RegisteredManifestChecksum>45C57F9CD747A1D533575D1E831AD93AE9AC07BC12C7FC8079FE59BC3E0256A3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0bdc5098-45f1-4040-a70d-ae08b1ef3dda_1.0.0.0_neutral__n4gjbfjjgjtb4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0bdc5098-45f1-4040-a70d-ae08b1ef3dda_n4gjbfjjgjtb4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0bdc5098-45f1-4040-a70d-ae08b1ef3dda</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=rodri_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-22T18:06:40.386</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\BankingSystem.exe">
+      <PackagePath>BankingSystem.exe</PackagePath>
+      <Modified>2013-09-22T18:15:03.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T11:12:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T11:12:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T11:12:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T11:12:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-09-22T15:49:49.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-09-22T15:55:54.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\BlankPage1.xbf">
+      <PackagePath>BlankPage1.xbf</PackagePath>
+      <Modified>2013-09-22T18:15:03.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-09-22T18:06:39.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-22T18:06:40.171</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
