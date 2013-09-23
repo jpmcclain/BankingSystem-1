@@ -39,8 +39,8 @@
     <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\BlankPage1.xbf">
-      <PackagePath>BlankPage1.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\TransferFunds.xbf">
+      <PackagePath>TransferFunds.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>

@@ -30,8 +30,8 @@ C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSy
 C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\resources.pri.xml
 C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\ProjectArchitectures.txt
-C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\BlankPage1.g.i.cs
-C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\BlankPage1.g.cs
-C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\BlankPage1.xaml
-C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\BlankPage1.xbf
-C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\BlankPage1.xbf
+C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\TransferFunds.xbf
+C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\TransferFunds.g.i.cs
+C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\TransferFunds.g.cs
+C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\TransferFunds.xaml
+C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\obj\Debug\TransferFunds.xbf

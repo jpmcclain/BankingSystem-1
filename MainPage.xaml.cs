@@ -106,7 +106,7 @@ namespace BankingSystem
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (checkSignIn())
-                this.Frame.Navigate(typeof(BlankPage1));
+                this.Frame.Navigate(typeof(TransferFunds));
             else
                 wrongOutput.Text = "Username or password entered is inccorect";
         }
