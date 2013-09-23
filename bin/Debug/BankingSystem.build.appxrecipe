@@ -39,6 +39,18 @@
     <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\Accounts.xbf">
+      <PackagePath>Accounts.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\ActionItems.xbf">
+      <PackagePath>ActionItems.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\ChangeProfile.xbf">
+      <PackagePath>ChangeProfile.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\QueryBalance.xbf">
+      <PackagePath>QueryBalance.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rodri_000\Documents\Visual Studio 2013\Projects\BankingSystem\BankingSystem\bin\Debug\TransferFunds.xbf">
       <PackagePath>TransferFunds.xbf</PackagePath>
     </AppxPackagedFile>

@@ -8,7 +8,7 @@
     xmlns:common="using:BankingSystem.Common"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Height="500" Width="800" FontSize="20">
+    mc:Ignorable="d" FontSize="20">
 
     <Page.Resources>
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
@@ -33,10 +33,10 @@
 
         <StackPanel Grid.Row="1" Margin="120,30,0,0">
             <TextBlock Text="Enter your username and password:"/>
-            <StackPanel Orientation="Vertical" Margin="0,20,0,20">
+            <StackPanel  Margin="0,20,0,20">
                 <TextBox x:Name="username" Width="300" HorizontalAlignment="Left" Margin="20" MaxLength="15"/>
                 <PasswordBox x:Name="password" Width="300" HorizontalAlignment="Left" Margin="20" PasswordChar="*" MaxLength="8"/>
-                <Button x:ConnectionId='1' Content="Sign In"                      Margin="20"/>
+                <Button x:ConnectionId='1' Content="Sign In"                            Margin="20"/>
             </StackPanel>
             <TextBlock x:Name="wrongOutput" Foreground="Red"/>
         </StackPanel>

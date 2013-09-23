@@ -5,14 +5,34 @@
 			<Scale>100</Scale>
 		</Qualifiers>
 		<ResourceMapSubtree name="Files">
+			<NamedResource name="Accounts.xbf" uri="ms-resource://0bdc5098-45f1-4040-a70d-ae08b1ef3dda/Files/Accounts.xbf">
+				<Candidate type="Path">
+					<Value>Accounts.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ActionItems.xbf" uri="ms-resource://0bdc5098-45f1-4040-a70d-ae08b1ef3dda/Files/ActionItems.xbf">
+				<Candidate type="Path">
+					<Value>ActionItems.xbf</Value>
+				</Candidate>
+			</NamedResource>
 			<NamedResource name="App.xbf" uri="ms-resource://0bdc5098-45f1-4040-a70d-ae08b1ef3dda/Files/App.xbf">
 				<Candidate type="Path">
 					<Value>App.xbf</Value>
 				</Candidate>
 			</NamedResource>
+			<NamedResource name="ChangeProfile.xbf" uri="ms-resource://0bdc5098-45f1-4040-a70d-ae08b1ef3dda/Files/ChangeProfile.xbf">
+				<Candidate type="Path">
+					<Value>ChangeProfile.xbf</Value>
+				</Candidate>
+			</NamedResource>
 			<NamedResource name="MainPage.xbf" uri="ms-resource://0bdc5098-45f1-4040-a70d-ae08b1ef3dda/Files/MainPage.xbf">
 				<Candidate type="Path">
 					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="QueryBalance.xbf" uri="ms-resource://0bdc5098-45f1-4040-a70d-ae08b1ef3dda/Files/QueryBalance.xbf">
+				<Candidate type="Path">
+					<Value>QueryBalance.xbf</Value>
 				</Candidate>
 			</NamedResource>
 			<NamedResource name="TransferFunds.xbf" uri="ms-resource://0bdc5098-45f1-4040-a70d-ae08b1ef3dda/Files/TransferFunds.xbf">

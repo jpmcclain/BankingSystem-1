@@ -15,7 +15,6 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
-// suck it!
 
 namespace BankingSystem
 {
@@ -32,6 +31,11 @@ namespace BankingSystem
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // test
+        }
+
+        private void BackToActionItemsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ActionItems));
         }
     }
 }
