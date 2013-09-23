@@ -141,6 +141,7 @@
     <Compile Include="ChangeProfile.xaml.cs">
       <DependentUpon>ChangeProfile.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Customer.cs" />
     <Compile Include="QueryBalance.xaml.cs">
       <DependentUpon>QueryBalance.xaml</DependentUpon>
     </Compile>

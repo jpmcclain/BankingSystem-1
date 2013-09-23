@@ -34,8 +34,8 @@
         </Grid.ColumnDefinitions>
         
         <StackPanel Grid.Row="1">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="From:" VerticalAlignment="Top" Width="106" Margin="0 80"/>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="To:" VerticalAlignment="Top" Width="107" Margin="0 60"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="From:" VerticalAlignment="Top" Width="106" Margin="20 80"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="To:" VerticalAlignment="Top" Width="107" Margin="20 60"/>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="1">
             <ComboBox HorizontalAlignment="Left" Margin="0 70" VerticalAlignment="Top" Width="380"  Height="52" FontSize="28">

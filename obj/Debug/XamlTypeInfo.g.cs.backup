@@ -124,7 +124,7 @@ namespace BankingSystem.BankingSystem_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "BankingSystem.Accounts";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -133,8 +133,10 @@ namespace BankingSystem.BankingSystem_XamlTypeInfo
             _typeNameTable[5] = "BankingSystem.QueryBalance";
             _typeNameTable[6] = "BankingSystem.TransferFunds";
             _typeNameTable[7] = "BankingSystem.MainPage";
+            _typeNameTable[8] = "BankingSystem.Customer";
+            _typeNameTable[9] = "Object";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::BankingSystem.Accounts);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -143,6 +145,8 @@ namespace BankingSystem.BankingSystem_XamlTypeInfo
             _typeTable[5] = typeof(global::BankingSystem.QueryBalance);
             _typeTable[6] = typeof(global::BankingSystem.TransferFunds);
             _typeTable[7] = typeof(global::BankingSystem.MainPage);
+            _typeTable[8] = typeof(global::BankingSystem.Customer);
+            _typeTable[9] = typeof(global::System.Object);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -235,18 +239,66 @@ namespace BankingSystem.BankingSystem_XamlTypeInfo
             case 7:   //  BankingSystem.MainPage
                 userType = new global::BankingSystem.BankingSystem_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_7_MainPage;
+                userType.AddMemberName("customer1");
+                userType.AddMemberName("customer2");
                 xamlType = userType;
+                break;
+
+            case 8:   //  BankingSystem.Customer
+                userType = new global::BankingSystem.BankingSystem_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 9:   //  Object
+                xamlType = new global::BankingSystem.BankingSystem_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
         }
 
 
+        private object get_0_MainPage_customer1(object instance)
+        {
+            var that = (global::BankingSystem.MainPage)instance;
+            return that.customer1;
+        }
+        private void set_0_MainPage_customer1(object instance, object Value)
+        {
+            var that = (global::BankingSystem.MainPage)instance;
+            that.customer1 = (global::BankingSystem.Customer)Value;
+        }
+        private object get_1_MainPage_customer2(object instance)
+        {
+            var that = (global::BankingSystem.MainPage)instance;
+            return that.customer2;
+        }
+        private void set_1_MainPage_customer2(object instance, object Value)
+        {
+            var that = (global::BankingSystem.MainPage)instance;
+            that.customer2 = (global::BankingSystem.Customer)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::BankingSystem.BankingSystem_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::BankingSystem.BankingSystem_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "BankingSystem.MainPage.customer1":
+                userType = (global::BankingSystem.BankingSystem_XamlTypeInfo.XamlUserType)GetXamlTypeByName("BankingSystem.MainPage");
+                xamlMember = new global::BankingSystem.BankingSystem_XamlTypeInfo.XamlMember(this, "customer1", "BankingSystem.Customer");
+                xamlMember.Getter = get_0_MainPage_customer1;
+                xamlMember.Setter = set_0_MainPage_customer1;
+                break;
+            case "BankingSystem.MainPage.customer2":
+                userType = (global::BankingSystem.BankingSystem_XamlTypeInfo.XamlUserType)GetXamlTypeByName("BankingSystem.MainPage");
+                xamlMember = new global::BankingSystem.BankingSystem_XamlTypeInfo.XamlMember(this, "customer2", "BankingSystem.Customer");
+                xamlMember.Getter = get_1_MainPage_customer2;
+                xamlMember.Setter = set_1_MainPage_customer2;
+                break;
+            }
             return xamlMember;
         }
     }
