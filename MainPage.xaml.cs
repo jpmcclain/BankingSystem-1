@@ -24,13 +24,9 @@ namespace BankingSystem
     public sealed partial class MainPage : Page
     {
 
-        public Customer customer1 { get; set; }
-        public Customer customer2 { get; set; }
-
         public MainPage()
         {
             this.InitializeComponent();
-            CreateCustomers();
         }
 
         private void SignInButton_Click(object sender, RoutedEventArgs e)
@@ -46,20 +42,13 @@ namespace BankingSystem
         {  
             bool canSignIn = false;
 
-            if (username.Text == customer1.customerUsername && password.Password == customer1.customerPassword)
+            if (username.Text == GlobalList._customer1.customerUsername && password.Password == GlobalList._customer1.customerPassword)
                 canSignIn = true;
-            else if (username.Text == customer2.customerUsername && password.Password == customer2.customerPassword)
+            else if (username.Text == GlobalList._customer2.customerUsername && password.Password == GlobalList._customer2.customerPassword)
                 canSignIn = true;
 
-            return canSignIn;
-                
+            return canSignIn;       
         }
 
-
-        private void CreateCustomers()
-        {
-            customer1 = new Customer("Sam", "moreMoney", "12345", "whatever@ttu.edu", 436764, 792304, false, 2367.47, 1155.82);
-            customer2 = new Customer("Bill", "lessMoney", "54321", "anyways@ttu.edu", 783496, 425395, false, 0.47, 268.82);
-        }
     }
 }
